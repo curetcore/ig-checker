@@ -16,9 +16,11 @@
 
 ---
 
-> **No es un SaaS.** Es un archivo HTML que abrís y funciona. Procesa el export oficial de Instagram dentro de tu navegador y te dice quién no te sigue de vuelta. Sin login, sin servidor, sin que nadie vea tu data.
+> **En diciembre de 2024, Meta cerró el acceso público a tu lista de followers de Instagram.** Las apps que prometen "quién no te sigue" hoy hacen una de dos cosas: te piden tu password (= cuenta comprometida) o scrapean Instagram desde tu sesión (= ban garantizado eventualmente).
 >
-> Open source. Pensado para que lo abras con **Claude Code** (o cualquier IDE con IA) y lo customices a tu gusto.
+> IG Checker no hace ninguna de las dos. Es un archivo HTML que abrís en tu navegador. Le arrastrás el export oficial que Instagram te da gratis y procesa todo localmente. Sin login, sin servidor, sin que nadie vea tu data.
+>
+> Open source. Pensado para que lo abras con **Claude Code** (o cualquier IDE con IA) y lo customices.
 
 <br>
 
@@ -53,7 +55,7 @@ El archivo está estructurado para que un LLM lo entienda en segundos. Hay un ba
 
 ## 🎯 Cómo funciona
 
-Instagram **te deja descargar tu propia data** vía export oficial. Es legal, oficial, y no requiere automation.
+Después del cierre de la Instagram Basic Display API en diciembre de 2024, la única vía 100% legal para auditar tus followers es **tu propio export oficial**. Instagram te lo da gratis si lo pedís. No requiere API, no requiere login, no requiere automation.
 
 ```
 1. Vos pedís tu export en instagram.com
